@@ -1,0 +1,73 @@
+.job-Card-list-item {
+  color: #ffffff;
+  list-style-type: none;
+  background-color: #272727;
+  border-radius: 10px;
+  padding: 12px;
+  margin: 13px;
+}
+.company-logo {
+  width: 60px;
+  height: 60px;
+}
+.list-logo-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+}
+.list-heading-container {
+  margin-left: 15px;
+  color: #ffffff;
+  font-family: 'Roboto';
+}
+.list-heading {
+  font-size: 20px;
+}
+.list-paragraph {
+  font-size: 18px;
+}
+.icon {
+  color: #fbbf24;
+  margin-right: 6px;
+}
+.list-center-details-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  font-family: 'Roboto';
+  color: #ffffff;
+}
+.location-para {
+  font-size: 15px;
+  margin-right: 30px;
+  padding-right: 30px;
+  display: flex;
+  align-items: center;
+}
+.type-para {
+  font-size: 15px;
+  margin-right: 30px;
+  padding-right: 30px;
+  display: flex;
+  align-items: center;
+}
+.type-icon {
+  margin-right: 10px;
+}
+.salary-package {
+  align-self: flex-end;
+}
+.list-description-container {
+  color: #ffffff;
+  font-family: 'Roboto';
+}
+.list-description-heading {
+  font-size: 17px;
+}
+.list-description {
+  font-size: 14px;
+}
+.link-item {
+  text-decoration: none;
+}

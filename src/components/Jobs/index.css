@@ -1,0 +1,128 @@
+.jobs-container {
+  display: flex;
+  flex-direction: column;
+}
+.jobs-responsive-container {
+  display: flex;
+  flex-direction: row;
+  background-color: #000000;
+  padding-top: 15px;
+}
+.side-details-container {
+  flex-grow: 1;
+  padding: 20px;
+  width: 28vw;
+}
+.user-details-container {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/profile-bg.png');
+  background-size: cover;
+  height: 200px;
+  padding: 12px;
+  font-family: 'Roboto';
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.username-heading {
+  color: #6366f1;
+  font-size: 20px;
+}
+.user-paragraph {
+  color: #2c364c;
+  font-size: 15px;
+}
+.employment-type-container {
+  font-family: 'Roboto';
+  display: flex;
+  flex-direction: column;
+  color: #ffffff;
+  padding-left: 5px;
+}
+.employment-heading {
+  font-size: 16px;
+}
+
+.jobs-list-container {
+  padding: 10px;
+  margin: 5px;
+  overflow-y: auto;
+  width: 70vw;
+  flex-grow: 2;
+}
+.search-input-container {
+  width: 300px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  border: 1px solid #f1f5f9;
+}
+.search-input {
+  width: 90%;
+  height: 100%;
+  padding-left: 12px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  outline: none;
+  border: none;
+  background-color: transparent;
+  color: #f1f5f9;
+}
+.search-icon {
+  color: #ffffff;
+  height: 100%;
+  margin-left: 6px;
+  background-color: #2c364c;
+}
+.job-Items-list-container {
+  display: flex;
+  flex-direction: column;
+}
+.failure-page-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.failure-page {
+  width: 50vw;
+}
+.not-found-heading {
+  font-size: 18px;
+  color: #f1f5f9;
+}
+.not-found-para {
+  font-size: 15px;
+  color: #f1f5f9;
+}
+.jobs-loader-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.profile-image {
+  width: 50px;
+}
+.profile-failure-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #000000;
+}
+.retry-button {
+  background-color: #6366f1;
+  color: #ffffff;
+  font-size: 12px;
+  padding: 5px;
+  border: none;
+  border-radius: 7px;
+  font-family: 'Roboto';
+}
+.inputButton {
+  background-color: transparent;
+  border: none;
+  outline: none;
+}

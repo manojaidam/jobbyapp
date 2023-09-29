@@ -1,0 +1,113 @@
+.job-item-details-container {
+  background-color: #000000;
+}
+.job-card-item-container {
+  background-color: #272727;
+  padding: 50px;
+}
+.job-details-card-container {
+  background-color: #2c364c;
+  padding: 20px;
+}
+.job-details-card-heading-container {
+  display: flex;
+  flex-direction: row;
+}
+.job-card-heading-container {
+  color: #f8fafc;
+  font-family: 'Roboto';
+  margin-left: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.job-card-company-logo {
+  height: 80px;
+  width: 90px;
+}
+.card-heading {
+  font-size: 20px;
+}
+.card-para {
+  font-size: 17px;
+}
+.location-details-container {
+  color: #f8fafc;
+  font-size: 18px;
+  display: flex;
+  flex-direction: row;
+}
+.location-para {
+  margin-right: 10px;
+}
+.description-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  color: #f8fafc;
+  font-family: 'Roboto';
+}
+.card-description {
+  font-size: 18px;
+}
+.visit-link {
+  font-size: 16px;
+  color: #6366f1;
+}
+.card-description-content {
+  font-size: 15px;
+  font-family: 'Roboto';
+  color: #f8fafc;
+}
+.card-list-container {
+  color: #f8fafc;
+  margin-left: 0px;
+  padding-left: 0px;
+  margin-top: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.card-list-heading {
+  font-size: 18px;
+  color: #f8fafc;
+}
+.list-item {
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  margin: 14px;
+}
+.skills-images {
+  height: 50px;
+  width: 50px;
+  margin-right: 12px;
+}
+.card-item-para {
+  font-size: 16px;
+}
+.life-at-company-card-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.life-at-company-container {
+  width: 60%;
+}
+.life-at-company-heading {
+  color: #f8fafc;
+  font-size: 20px;
+}
+.life-at-company-para {
+  color: #f8fafc;
+  font-size: 15px;
+}
+.life-at-company-image {
+  width: 30%;
+}
+.similar-job-details-list-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
